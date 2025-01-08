@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  gap: 50px;
+}
+
+
+
+.player1_gameboard, .player2_gameboard {
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template: repeat(10, 1fr)/repeat(10, 1fr);
+}
+
+
+.item {
+  border: 0.5px solid black;
+  text-align: center;
+  font-size: large;
+  line-height: 50px
+}
+
+
+
+.mask {
+  opacity: 0.1;
+}
+
+.hit{
+  background-color: pink;
+  font-size: large;
+  line-height: 50px
+
+}
